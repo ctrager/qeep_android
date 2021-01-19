@@ -4,27 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonNew"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/text_margin"
-
-            android:text="New" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/text_margin"
-            android:text="Two" />
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -35,18 +14,106 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView1"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-                android:text="TextView " />
+                <Button
+                    android:id="@+id/buttonNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
 
-            <TextView
-                android:id="@+id/textView2"
+                    android:text="New" />
+
+                <TextView
+                    android:id="@+id/textConfigure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:text="Configure"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView 2" />
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="TextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \n" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView 2TTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \n" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
