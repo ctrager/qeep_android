@@ -17,21 +17,23 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="5dp">
 
-                <Button
-                    android:id="@+id/buttonNew"
+                <TextView
+                    android:id="@+id/textNew"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/text_margin"
-
-                    android:text="New" />
+                    android:textColor="@color/blue"
+                    android:text="New"
+                    android:layout_marginRight="10dp"
+                    />
 
                 <TextView
                     android:id="@+id/textConfigure"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/red"
+                    android:textColor="@color/blue"
                     android:text="Configure"/>
 
 
@@ -40,39 +42,62 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:background="@drawable/note_rectangle"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
 
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                >
 
                 <TextView
+                    android:id="@+id/textClose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:padding="5dp"
+
+                    android:text="Close" />
+
+                <EditText
                     android:id="@+id/textView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
+                    android:background="@color/lightgreen"
+                    android:layout_marginHorizontal="2dp"
+                    android:padding="2dp"
+                    android:fontFamily="monospace"
+                    android:textSize="14sp"
                     android:text="TextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \nTextView  asdfadsf \n adsasfd  asdfasdf \n" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="5dp"
                     android:orientation="horizontal">
 
-                    <Button
-                        android:id="@+id/button5"
+                    <TextView
+                        android:id="@+id/textPosition"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Button" />
 
-                    <Button
-                        android:id="@+id/button6"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/blue"
+                        android:text="Position" />
+
+                    <TextView
+                        android:id="@+id/textColor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Button" />
+
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/blue"
+                        android:text="Color" />
+
+                    <TextView
+                        android:id="@+id/textDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:text="Delete" />
                 </LinearLayout>
             </LinearLayout>
 

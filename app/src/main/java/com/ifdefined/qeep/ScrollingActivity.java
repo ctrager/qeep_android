@@ -24,8 +24,8 @@ public class ScrollingActivity extends AppCompatActivity {
         //CollapsingToolbarLayout toolBarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         //toolBarLayout.setTitle(getTitle());
 
-        Button buttonNew = (Button) findViewById(R.id.buttonNew);
-        buttonNew.setOnClickListener(new View.OnClickListener() {
+        TextView textNew = (TextView) findViewById(R.id.textNew);
+        textNew.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "You clicked buttonNew", Snackbar.LENGTH_LONG)
